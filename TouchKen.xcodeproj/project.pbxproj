@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3747181A7B8BA70098571A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3747171A7B8BA70098571A /* main.m */; };
+		EE37471B1A7B8BA70098571A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37471A1A7B8BA70098571A /* AppDelegate.m */; };
+		EE37471E1A7B8BA80098571A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37471D1A7B8BA80098571A /* ViewController.m */; };
+		EE3747211A7B8BA80098571A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37471F1A7B8BA80098571A /* Main.storyboard */; };
+		EE3747231A7B8BA80098571A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3747221A7B8BA80098571A /* Images.xcassets */; };
+		EE3747261A7B8BA80098571A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3747241A7B8BA80098571A /* LaunchScreen.xib */; };
+		EE3747321A7B8BA80098571A /* TouchKenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3747311A7B8BA80098571A /* TouchKenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE37472C1A7B8BA80098571A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE37470A1A7B8BA70098571A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3747111A7B8BA70098571A;
+			remoteInfo = TouchKen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE3747121A7B8BA70098571A /* TouchKen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchKen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3747161A7B8BA70098571A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3747171A7B8BA70098571A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE3747191A7B8BA70098571A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE37471A1A7B8BA70098571A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE37471C1A7B8BA80098571A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE37471D1A7B8BA80098571A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE3747201A7B8BA80098571A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3747221A7B8BA80098571A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE3747251A7B8BA80098571A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE37472B1A7B8BA80098571A /* TouchKenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchKenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3747301A7B8BA80098571A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3747311A7B8BA80098571A /* TouchKenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchKenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE37470F1A7B8BA70098571A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3747281A7B8BA80098571A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3747091A7B8BA70098571A = {
+			isa = PBXGroup;
+			children = (
+				EE3747141A7B8BA70098571A /* TouchKen */,
+				EE37472E1A7B8BA80098571A /* TouchKenTests */,
+				EE3747131A7B8BA70098571A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3747131A7B8BA70098571A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3747121A7B8BA70098571A /* TouchKen.app */,
+				EE37472B1A7B8BA80098571A /* TouchKenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3747141A7B8BA70098571A /* TouchKen */ = {
+			isa = PBXGroup;
+			children = (
+				EE3747191A7B8BA70098571A /* AppDelegate.h */,
+				EE37471A1A7B8BA70098571A /* AppDelegate.m */,
+				EE37471C1A7B8BA80098571A /* ViewController.h */,
+				EE37471D1A7B8BA80098571A /* ViewController.m */,
+				EE37471F1A7B8BA80098571A /* Main.storyboard */,
+				EE3747221A7B8BA80098571A /* Images.xcassets */,
+				EE3747241A7B8BA80098571A /* LaunchScreen.xib */,
+				EE3747151A7B8BA70098571A /* Supporting Files */,
+			);
+			path = TouchKen;
+			sourceTree = "<group>";
+		};
+		EE3747151A7B8BA70098571A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3747161A7B8BA70098571A /* Info.plist */,
+				EE3747171A7B8BA70098571A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE37472E1A7B8BA80098571A /* TouchKenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3747311A7B8BA80098571A /* TouchKenTests.m */,
+				EE37472F1A7B8BA80098571A /* Supporting Files */,
+			);
+			path = TouchKenTests;
+			sourceTree = "<group>";
+		};
+		EE37472F1A7B8BA80098571A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3747301A7B8BA80098571A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3747111A7B8BA70098571A /* TouchKen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3747351A7B8BA80098571A /* Build configuration list for PBXNativeTarget "TouchKen" */;
+			buildPhases = (
+				EE37470E1A7B8BA70098571A /* Sources */,
+				EE37470F1A7B8BA70098571A /* Frameworks */,
+				EE3747101A7B8BA70098571A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchKen;
+			productName = TouchKen;
+			productReference = EE3747121A7B8BA70098571A /* TouchKen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE37472A1A7B8BA80098571A /* TouchKenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3747381A7B8BA80098571A /* Build configuration list for PBXNativeTarget "TouchKenTests" */;
+			buildPhases = (
+				EE3747271A7B8BA80098571A /* Sources */,
+				EE3747281A7B8BA80098571A /* Frameworks */,
+				EE3747291A7B8BA80098571A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE37472D1A7B8BA80098571A /* PBXTargetDependency */,
+			);
+			name = TouchKenTests;
+			productName = TouchKenTests;
+			productReference = EE37472B1A7B8BA80098571A /* TouchKenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE37470A1A7B8BA70098571A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lin Chia-Chen";
+				TargetAttributes = {
+					EE3747111A7B8BA70098571A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EE37472A1A7B8BA80098571A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EE3747111A7B8BA70098571A;
+					};
+				};
+			};
+			buildConfigurationList = EE37470D1A7B8BA70098571A /* Build configuration list for PBXProject "TouchKen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3747091A7B8BA70098571A;
+			productRefGroup = EE3747131A7B8BA70098571A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3747111A7B8BA70098571A /* TouchKen */,
+				EE37472A1A7B8BA80098571A /* TouchKenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3747101A7B8BA70098571A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3747211A7B8BA80098571A /* Main.storyboard in Resources */,
+				EE3747261A7B8BA80098571A /* LaunchScreen.xib in Resources */,
+				EE3747231A7B8BA80098571A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3747291A7B8BA80098571A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE37470E1A7B8BA70098571A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37471E1A7B8BA80098571A /* ViewController.m in Sources */,
+				EE37471B1A7B8BA70098571A /* AppDelegate.m in Sources */,
+				EE3747181A7B8BA70098571A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3747271A7B8BA80098571A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3747321A7B8BA80098571A /* TouchKenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE37472D1A7B8BA80098571A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3747111A7B8BA70098571A /* TouchKen */;
+			targetProxy = EE37472C1A7B8BA80098571A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE37471F1A7B8BA80098571A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3747201A7B8BA80098571A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3747241A7B8BA80098571A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3747251A7B8BA80098571A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3747331A7B8BA80098571A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE3747341A7B8BA80098571A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3747361A7B8BA80098571A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchKen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE3747371A7B8BA80098571A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchKen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE3747391A7B8BA80098571A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchKenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchKen.app/TouchKen";
+			};
+			name = Debug;
+		};
+		EE37473A1A7B8BA80098571A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchKenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchKen.app/TouchKen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE37470D1A7B8BA70098571A /* Build configuration list for PBXProject "TouchKen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3747331A7B8BA80098571A /* Debug */,
+				EE3747341A7B8BA80098571A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3747351A7B8BA80098571A /* Build configuration list for PBXNativeTarget "TouchKen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3747361A7B8BA80098571A /* Debug */,
+				EE3747371A7B8BA80098571A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3747381A7B8BA80098571A /* Build configuration list for PBXNativeTarget "TouchKenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3747391A7B8BA80098571A /* Debug */,
+				EE37473A1A7B8BA80098571A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE37470A1A7B8BA70098571A /* Project object */;
+}
