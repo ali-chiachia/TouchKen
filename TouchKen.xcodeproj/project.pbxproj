@@ -14,6 +14,7 @@
 		EE3747231A7B8BA80098571A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3747221A7B8BA80098571A /* Images.xcassets */; };
 		EE3747261A7B8BA80098571A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3747241A7B8BA80098571A /* LaunchScreen.xib */; };
 		EE3747321A7B8BA80098571A /* TouchKenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3747311A7B8BA80098571A /* TouchKenTests.m */; };
+		EE37473D1A7B8BF90098571A /* Ken.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37473C1A7B8BF90098571A /* Ken.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EE37472B1A7B8BA80098571A /* TouchKenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchKenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3747301A7B8BA80098571A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3747311A7B8BA80098571A /* TouchKenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchKenTests.m; sourceTree = "<group>"; };
+		EE37473B1A7B8BF90098571A /* Ken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ken.h; sourceTree = "<group>"; };
+		EE37473C1A7B8BF90098571A /* Ken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ken.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EE37471F1A7B8BA80098571A /* Main.storyboard */,
 				EE3747221A7B8BA80098571A /* Images.xcassets */,
 				EE3747241A7B8BA80098571A /* LaunchScreen.xib */,
+				EE37473B1A7B8BF90098571A /* Ken.h */,
+				EE37473C1A7B8BF90098571A /* Ken.m */,
 				EE3747151A7B8BA70098571A /* Supporting Files */,
 			);
 			path = TouchKen;
@@ -221,6 +226,7 @@
 			files = (
 				EE37471E1A7B8BA80098571A /* ViewController.m in Sources */,
 				EE37471B1A7B8BA70098571A /* AppDelegate.m in Sources */,
+				EE37473D1A7B8BF90098571A /* Ken.m in Sources */,
 				EE3747181A7B8BA70098571A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
