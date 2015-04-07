@@ -17,6 +17,8 @@
     // Drawing code
 }
 */
+
+//nothing
 -(Ken *)initWithPoint:(CGPoint)point
 {
     self =[super init];
